@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy – OpenClaw Mail Brief</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --fg: #1d1d1f;
+        --muted: #5f6368;
+        --bg: #ffffff;
+        --link: #1a73e8;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --fg: #e8eaed;
+          --muted: #9aa0a6;
+          --bg: #202124;
+          --link: #8ab4f8;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font:
+          16px/1.6 system-ui,
+          -apple-system,
+          "Segoe UI",
+          sans-serif;
+      }
+      main {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 48px 16px;
+      }
+      h1 {
+        font-size: 1.8rem;
+        margin: 0 0 4px;
+      }
+      h2 {
+        font-size: 1.15rem;
+        margin-top: 32px;
+      }
+      p.meta {
+        color: var(--muted);
+        margin-top: 0;
+      }
+      a {
+        color: var(--link);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Privacy Policy</h1>
+      <p class="meta">OpenClaw Mail Brief · Last updated 22 October 2026</p>
+
+      <p>
+        OpenClaw Mail Brief ("the app") is a personal tool operated by koza4e4ok
+        ("the operator") for their own use only. It is not offered to the
+        public. This policy explains what Google user data the app accesses and
+        how it is handled.
+      </p>
+
+      <h2>Data the app accesses</h2>
+      <p>
+        With the Gmail read-only permission (<code>gmail.readonly</code>), and
+        only for the operator's own Google account, the app reads the sender,
+        subject, date, read/important status and a short preview of messages
+        that arrived in the Primary inbox during the previous 24 hours. It does
+        not read attachments, and it cannot send, delete, label or otherwise
+        change any email.
+      </p>
+
+      <h2>How the data is used</h2>
+      <p>
+        The data is used only to produce a short daily summary that is sent to
+        the operator's private Telegram chat. Before summarizing, the app
+        removes the subject and preview of security, sign-in, password-reset and
+        financial emails, and masks number codes, account numbers and links in
+        all other previews. The filtered data is summarized by Google's Gemini
+        model through the Gemini API.
+      </p>
+
+      <h2>Storage and retention</h2>
+      <p>
+        Email data is processed in memory and in temporary files on the
+        operator's private server and is deleted when each daily run finishes.
+        The app keeps no database of email content. The finished summary remains
+        in the operator's Telegram chat and may appear in the server's
+        application logs.
+      </p>
+
+      <h2>Sharing</h2>
+      <p>
+        The data is not sold, not used for advertising, and not shared with
+        anyone other than the service providers needed to produce and deliver
+        the summary: Google (Gemini API) and Telegram. No humans other than the
+        operator read the data.
+      </p>
+
+      <h2>Limited Use</h2>
+      <p>
+        The app's use and transfer of information received from Google APIs
+        adheres to the
+        <a
+          href="https://developers.google.com/terms/api-services-user-data-policy"
+          >Google API Services User Data Policy</a
+        >, including the Limited Use requirements.
+      </p>
+
+      <h2>Revoking access</h2>
+      <p>
+        Access can be revoked at any time at
+        <a href="https://myaccount.google.com/permissions"
+          >myaccount.google.com/permissions</a
+        >. After revocation the app can no longer read any email.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about this policy:
+        <a href="mailto:koza4e4ok@gmail.com">koza4e4ok@gmail.com</a>
+      </p>
+
+      <p><a href="index.html">← OpenClaw Mail Brief</a></p>
+    </main>
+  </body>
+</html>

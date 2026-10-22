@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OpenClaw Mail Brief</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --fg: #1d1d1f;
+        --muted: #5f6368;
+        --bg: #ffffff;
+        --link: #1a73e8;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --fg: #e8eaed;
+          --muted: #9aa0a6;
+          --bg: #202124;
+          --link: #8ab4f8;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font:
+          16px/1.6 system-ui,
+          -apple-system,
+          "Segoe UI",
+          sans-serif;
+      }
+      main {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 48px 16px;
+      }
+      h1 {
+        font-size: 1.8rem;
+        margin: 0 0 8px;
+      }
+      p.lead {
+        color: var(--muted);
+        margin-top: 0;
+      }
+      a {
+        color: var(--link);
+      }
+      footer {
+        margin-top: 48px;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>OpenClaw Mail Brief</h1>
+      <p class="lead">
+        A private, single-user morning digest of my own Gmail inbox.
+      </p>
+
+      <p>
+        OpenClaw Mail Brief is a personal tool that the operator (koza4e4ok)
+        runs on their own server. Once a day it reads, with read-only access,
+        the sender, subject and a short preview of messages that arrived in the
+        operator's Primary inbox during the previous 24 hours, and sends a short
+        summary to the operator's private Telegram chat.
+      </p>
+
+      <p>
+        It is not a public service. It is not offered to other users, and it
+        does not send, delete or change any email.
+      </p>
+
+      <ul>
+        <li><a href="privacy.html">Privacy policy</a></li>
+        <li>
+          Contact: <a href="mailto:koza4e4ok@gmail.com">koza4e4ok@gmail.com</a>
+        </li>
+      </ul>
+
+      <footer>© 2026 koza4e4ok</footer>
+    </main>
+  </body>
+</html>
