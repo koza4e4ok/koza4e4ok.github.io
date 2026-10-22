@@ -67,21 +67,21 @@
       <h2>Data the app accesses</h2>
       <p>
         With the Gmail read-only permission (<code>gmail.readonly</code>), and
-        only for the operator's own Google account, the app reads the sender,
-        subject, date, read/important status and a short preview of messages
-        that arrived in the Primary inbox during the previous 24 hours. It does
-        not read attachments, and it cannot send, delete, label or otherwise
-        change any email.
+        only for the operator's own Google account, the app reads only the
+        sender, subject, date and labels (such as unread and important) of
+        messages that arrived in the Primary inbox during the previous 24 hours.
+        It does not read message bodies, previews or attachments, and it cannot
+        send, delete, label or otherwise change any email.
       </p>
 
       <h2>How the data is used</h2>
       <p>
         The data is used only to produce a short daily summary that is sent to
-        the operator's private Telegram chat. Before summarizing, the app
-        removes the subject and preview of security, sign-in, password-reset and
-        financial emails, and masks number codes, account numbers and links in
-        all other previews. The filtered data is summarized by Google's Gemini
-        model through the Gemini API.
+        the operator's private Telegram chat. Before summarizing, the app hides
+        the subject of security, sign-in, password-reset and financial emails,
+        and masks number codes, account numbers and links in all other subjects.
+        The filtered data is summarized by Google's Gemini model through the
+        Gemini API.
       </p>
 
       <h2>Storage and retention</h2>
